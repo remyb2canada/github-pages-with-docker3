@@ -8,10 +8,10 @@ The experiment is about hosting a small static site on GitHub pages with Jekyll 
 
 The purpose is to understand:
 
-1- how to create a local dev environmnet using containers (Docker), isolated from the the host machine's own configurations
-2- how to use Jekyll's static site generator features
-3- how to modify a Jekyll's site theme
-4- what are the software dependencies that make everything run "like magic"
+1. how to create a local dev environmnet using containers (Docker), isolated from the the host machine's own configurations
+2. how to use Jekyll's static site generator features
+3. how to modify a Jekyll's site theme
+4. what are the software dependencies that make everything run "like magic"
 
 Demonstrating the use of containers will help educate fellow colleagues the benfits of abstracting an infrastructure layer. This to make making it easier for developers to manage multiple applications in the many environments, reducing conflicts between them, and making it easier for operations team to port those applications outside of legacy data centres (i.e. the public cloud or SSC's Enterprise Data Center).
 
@@ -21,15 +21,15 @@ Demonstrating the use of Jekyll themes will help educate fellow colleagues on ho
 
 ## Materials used to get up to speed
 
-- [Bill Raymond's tutorial](https://gist.github.com/BillRaymond/db761d6b53dc4a237b095819d33c7332)
-- [GitHub Docs on GitHub Pages withi Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
-- [Hack for LA's repository](https://github.com/hackforla/ghpages-docker/tree/main)
-- [GC's WET-BOWE GitHub organization and associated repositories](https://github.com/wet-boew/gcweb-jekyll)
+* [Bill Raymond's tutorial](https://gist.github.com/BillRaymond/db761d6b53dc4a237b095819d33c7332)
+* [GitHub Docs on GitHub Pages withi Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
+* [Hack for LA's repository](https://github.com/hackforla/ghpages-docker/tree/main)
+* [GC's WET-BOWE GitHub organization and associated repositories](https://github.com/wet-boew/gcweb-jekyll)
 
 ## Other sources of information used to learn
 
-- [Mistral GenAI's LeChat](https://mistral.ai/)
-- [Visual Studio Code Tutorial](https://code.visualstudio.com/docs/devcontainers/containers)
-- [Jekyll's own documentation](https://jekyllrb.com/docs/themes/)
-- [Docker's own documentation](https://docs.docker.com/reference/cli/docker/container/run/)
-- [Google search often leading to stackoverflow post](https://stackoverflow.com/questions/31327045/switch-theme-in-an-existing-jekyll-installation)
+* [Mistral GenAI's LeChat](https://mistral.ai/)
+* [Visual Studio Code Tutorial](https://code.visualstudio.com/docs/devcontainers/containers)
+* [Jekyll's own documentation](https://jekyllrb.com/docs/themes/)
+* [Docker's own documentation](https://docs.docker.com/reference/cli/docker/container/run/)
+* [Google search often leading to stackoverflow post](https://stackoverflow.com/questions/31327045/switch-theme-in-an-existing-jekyll-installation)
