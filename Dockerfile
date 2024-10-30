@@ -20,7 +20,8 @@
 #       docker run -p 4000:4000 -v ${PWD}:/usr/src/app my-jekyll-site 
 # 
 # The docker container will be running (a jekyll --help output will be displayed) and you can pass Jekyll commands to it.
-# For example, to serve the jekyll site:
+# For example, to serve the jekyll site from oa single command line use this command:
+#       docker run -p 4000:4000 -v %cd%:/usr/src/app -it --rm my-jekyll-site jekyll serve --host "0.0.0.0"
 #       
 ##################################################
 
