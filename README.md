@@ -13,11 +13,11 @@ The purpose is to understand:
 3. how to modify a Jekyll's site theme
 4. what are the software dependencies that make everything run "like magic"
 
-Demonstrating the use of containers will help educate fellow colleagues the benfits of abstracting an infrastructure layer. This to make making it easier for developers to manage multiple applications in the many environments, reducing conflicts between them, and making it easier for operations team to port those applications outside of legacy data centres (i.e. the public cloud or SSC's Enterprise Data Center).
+Demonstrating the use of containers will help educate fellow colleagues the benefits of abstracting an infrastructure layer. This to make making it easier for developers to manage multiple applications in their many environments, reducing conflicts between them, and making it easier for operations team to port those applications outside of legacy data centres (i.e. the public cloud or SSC's Enterprise Data Center).
 
 Demonstrating the use of Jekyll's static site generator features will help educate fellow colleagues on how modern web development practices have significantly evolved: from application servers that render each requests before responding to one that periodically re-generate changed content and, therefore, drastically increase performance; and simplyfying HTML editing.
 
-Demonstrating the use of Jekyll themes will help educate fellow colleagues on how modern web development practices separate the design layer from its content. This greatly reducing the manual efforts to change designs when a new GC direction happens (e.g. change of parliament), makes it easier to comply with [GC's Web Accessibility Standards](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=23601), and makes it easier to re-use efforts (investments) of others.
+Demonstrating the use of Jekyll themes will help educate fellow colleagues on how modern web development practices separate the design layer from its content. This greatly reduces the manual efforts to change designs when a new GC direction happens (e.g. change of parliament), makes it easier to comply with [GC's Web Accessibility Standards](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=23601), and makes it easier to re-use efforts (investments) of others.
 
 ## Materials used to get up to speed
 
