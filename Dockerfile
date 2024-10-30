@@ -42,6 +42,11 @@ RUN gem install github-pages
 # This includes the Jekyll site files and any other necessary files
 COPY . .
 
+# The jekyll executable will be in the /usr/local/bundle/bin directory in the container
+# Ensute that path is in the $PATH ENV variable
+ENV JEKYLL_BIN=/usr/local/bundle/bin
+ENV PATH="$JEKYLL_BIN:$PATH"
+
 # Tell Docker that the container will listen on port 4000 at runtime (the default port that Jekyll uses to serve the site)
 EXPOSE 4000
 
