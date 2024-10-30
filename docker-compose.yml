@@ -1,0 +1,13 @@
+version: "3"
+services:
+  my-jekyll-site-service:
+    image: my-jekyll-site-ruby334
+    container_name: container-my-jekyll-site-ruby334
+    command: jekyll serve --force_polling --livereload --config _config.docker.yml -I
+    #command: jekyll serve --force_polling --livereload --config _config.yml,_config.docker.yml -I
+    environment:
+      - JEKYLL_ENV=docker
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/usr/src/app
