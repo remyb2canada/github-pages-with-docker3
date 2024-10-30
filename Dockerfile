@@ -1,11 +1,12 @@
 ##################################################
-# Made from a mix of
-#  - Mistral LeChat prompt
+# Dockerfile for GitHub Pages dependencies (https://pages.github.com/versions/) as of 2024-10-29
+# 
+# Made from a mix of:
+#  - Mistral LeChat prompt (mistral.ai)
 #  - https://github.com/hackforla/ghpages-docker/blob/main/Dockerfile
 #  - https://gist.github.com/BillRaymond/db761d6b53dc4a237b095819d33c7332
 #
-# Dockerfile Content for GitHub Pages dependencies (https://pages.github.com/versions/) as of 2024-10-29
-#
+# Content:
 #   - Ruby 3.3.4
 #   - GitHub Pages 232
 #   - Jekyll 3.10.0
