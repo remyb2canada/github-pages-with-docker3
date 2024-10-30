@@ -19,6 +19,8 @@
 # 4. Use Docker Compose or Run the Docker container using this command (if you're on Windows, change '${PWD}' with '%cd%'):
 #       docker run -p 4000:4000 -v ${PWD}:/usr/src/app my-jekyll-site 
 # 
+# The output of this last commmand will be 'jekyll --help'
+#
 # The docker container will be running (a jekyll --help output will be displayed) and you can pass Jekyll commands to it.
 # For example, to serve the jekyll site from oa single command line use this command:
 #       docker run -p 4000:4000 -v %cd%:/usr/src/app -it --rm my-jekyll-site jekyll serve --host "0.0.0.0"
