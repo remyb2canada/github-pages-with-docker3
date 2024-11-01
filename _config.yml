@@ -30,6 +30,7 @@ markdown: kramdown
 remote_theme: wet-boew/gcweb-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 #
 # Page front matter defaults
