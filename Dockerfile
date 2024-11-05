@@ -46,6 +46,9 @@ FROM ruby:3.3.4
 # This is also where the Jekyll site files will be located
 WORKDIR /usr/src/app
 
+# Install Bundler, the Ruby Gem manager
+RUN gem install bundler
+
 # Install github-pages Gem, which installs all dependencies required by GitHug Pages, including Jekyll
 # When no version is specified, it will install the most recent version available (v232 as of 2024-10-29)
 RUN gem install github-pages
